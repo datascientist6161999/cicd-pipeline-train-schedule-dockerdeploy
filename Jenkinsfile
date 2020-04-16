@@ -42,7 +42,7 @@ pipeline {
             when {
                 branch 'solution-abhimireddy'
             }
-            stesp{
+            steps{
                 echo 'Deploying To Production'
                 input 'Do you want to deploy to production?'
                 milestone(1)
